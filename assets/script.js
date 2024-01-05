@@ -10,25 +10,25 @@ setInterval(displayTime, 1000)
 
 function updateHour() {
     let currentHour = dayjs().hour();
-    let timeBlocks = $(".time-block"); // Corrected selector for time-block elements
+    let timeBlocks = $(".time-block"); 
 
     timeBlocks.each(function() {
         let blockHour = parseInt($(this).attr("id"));
 
         if (currentHour > blockHour) {
-            $(this).removeClass("present future"); // Remove present and future classes
+            $(this).removeClass("present future"); 
             $(this).addClass("past");
         } else if (currentHour === blockHour) {
-            $(this).removeClass("past future"); // Remove past and future classes
+            $(this).removeClass("past future"); 
             $(this).addClass("present");
         } else {
-            $(this).removeClass("past present"); // Remove past and present classes
+            $(this).removeClass("past present"); 
             $(this).addClass("future");
         }
     });
 }
 
-// Call the function to update the hours
+// Calling the function to update the hours
 updateHour();
 
 
