@@ -31,5 +31,14 @@ function updateHour() {
 // Calling the function to update the hours
 updateHour();
 
+$(`.saveBtn`).on(`click`, function (){
+    let textValue = $(this).siblings(`.description`).val();
+
+    let timeValue = $(this).parent().attr(`id`);
+
+    localStorage.setItem(timeValue, textValue);
+})
+
+
 
 })
