@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: #52666b;
   }
   
   textarea {
@@ -16,7 +17,7 @@ body {
   header {
     text-align: center;
     background-color: transparent;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 0;
     border-bottom: 10px solid black;
     padding: 60px;
@@ -44,7 +45,7 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #aeaeae;
     color: white;
   }
   
@@ -62,7 +63,7 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06aed5;
+    background-color: #116679;
     color: white;
   }
   
