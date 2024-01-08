@@ -44,7 +44,11 @@ $('.time-block').each(function() {
     $(this).find('.description').val(storedValue);
     console.log(`Retrieved: ${hour} - ${storedValue}`);
 });
+
+$(`#clearAll`).on(`click`, function() {
+    localStorage.clear()
+    document.location.reload();
+})
+
 });
 
-
-^^ Confused ^^
