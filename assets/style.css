@@ -53,12 +53,12 @@ body {
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #fa948e;
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: #aaf7aa;
     color: white;
   }
   
@@ -68,6 +68,10 @@ body {
     border-bottom-right-radius: 15px;
     background-color: #116679;
     color: white;
+  }
+
+  .saveBtn:hover {
+    background-color: #000000;
   }
   
   .saveBtn i:hover {
