@@ -81,3 +81,7 @@ body {
     border: none;
     margin-top: 20px;
   }
+
+  .fa-trash {
+    padding-right: 10px;
+  }

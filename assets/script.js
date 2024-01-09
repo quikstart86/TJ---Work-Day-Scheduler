@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     function displayTime() {
         $(`#currentDay`).text(dayjs().format (`dddd, MMMM D, YYYY`))
-        $(`#currentTime`).text(dayjs().format(`HH:mm: A`))
+        $(`#currentTime`).text(dayjs().format(`HH:mm A`))
     }
 
 
