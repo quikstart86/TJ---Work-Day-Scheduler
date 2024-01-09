@@ -45,7 +45,7 @@ $('.time-block').each(function() {
     console.log(`Retrieved: ${hour} - ${storedValue}`);
 });
 
-$(`#clearAll`).on(`click`, function() {
+$(`#clearAllBtn`).on(`click`, function() {
     localStorage.clear()
     document.location.reload();
 })
