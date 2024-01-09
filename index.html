@@ -18,20 +18,22 @@
 </head>
 
 <body>
+
   <header>
     <h1 class="display-3 mb-5">Work Day Scheduler</h1>
-    <p class="lead">A simple calendar app for scheduling your work day</p>
     <p id="currentDay" class="lead"><p id="currentTime" class="lead"></p>
+
 <!-- Button for emptying all sheduled events from local storage -->
     <button id="clearAllBtn"><i class="fa-solid fa-trash"></i>Clear Day</button>
   </header>
-  <div class="container">
-    <!-- Timeblocks go here -->
+
+    <!-- Time-blocks -->
     <!-- Added in blocks for 8am to 6pm -->
+  <div class="container">
     <div id="8" class="row time-block">
         <div class="col-md-2 hour">08:00</div>
         <textarea class="col-md-8 description"></textarea>
-        <button class="btn saveBtn col-md-2"><i class="fa-solid fa-thumbtack"></i></button> <!-- changed the save logo-->
+        <button class="btn saveBtn col-md-2"><i class="fa-solid fa-thumbtack"></i></button>
     </div>
     <div id="9" class="row time-block">
         <div class="col-md-2 hour">09:00</div>
@@ -84,7 +86,10 @@
         <button class="btn saveBtn col-md-2"><i class="fa-solid fa-thumbtack"></i></button>
     </div>
   </div>
+<!-- Time-blocks END -->
 
+
+<!-- Script section -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
   <script src="./assets/script.js"></script>
