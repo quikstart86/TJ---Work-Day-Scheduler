@@ -45,6 +45,13 @@ $('.time-block').each(function() {
     console.log(`Retrieved: ${hour} - ${storedValue}`);
 });
 
+// const saveMessage = `Saved Event`
+// $(`.saveBtn`).on(`click`)
+// , function() {
+// $(`#eventMessage`).innerHTML = saveMessage;
+// }
+
+
 $(`#clearAllBtn`).on(`click`, function() {
     localStorage.clear()
     document.location.reload();
