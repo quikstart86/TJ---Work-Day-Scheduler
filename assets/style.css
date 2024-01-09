@@ -1,96 +1,109 @@
+/* body styling of doc inc. google font */
 body {
-    font-family: 'DM Serif Display', sans-serif;
-    font-size: 16px;
-    line-height: 1;
-    background-color: #889fa7;
-  }
-  
-  textarea {
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 0px solid black;
-    padding: 10px;
-    font-family: 'lora';
-  }
-  
-  header {
-    text-align: center;
-    background-color: transparent;
-    color: rgb(255, 255, 255);
-    border-radius: 0;
-    border-bottom: 10px solid rgb(255, 255, 255);
-    padding: 60px;
-  }
-  
-  .description {
-    white-space: pre-wrap;
-  }
-  
-  .time-block {
-    text-align: center;
-    border-radius: 15px;
-  }
-  
-  .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 5px solid #889fa7;
-  }
-  
-  .hour {
-    background-color: #ffffff;
-    color: #000000;
-    padding-top: 30px ;
-    font-size: 20px;
-  }
-  
-  .past {
-    background-color: #aeaeae;
-    color: white;
-  }
-  
-  .present {
-    background-color: #fa948e;
-    color: white;
-  }
-  
-  .future {
-    background-color: #aaf7aa;
-    color: white;
-  }
-  
-  .saveBtn {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background-color: #116679;
-    color: white;
-  }
+  font-family: "DM Serif Display", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #aec5cb;
+}
 
-  .saveBtn:hover {
-    background-color: #000000;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  #clearAllBtn {
-    padding: 20px;
-    border-radius: 15px;
-    border: none;
-    margin-top: 20px;
-  }
+/* text area styling for input text */
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  padding: 10px;
+  font-family: "lora";
+}
 
-  .fa-trash {
-    padding-right: 10px;
-  }
+/* header styling */
+header {
+  text-align: center;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border-radius: 0;
+  border-bottom: 10px solid rgb(255, 255, 255);
+  padding: 60px;
+}
 
-  /* #eventMessage {
-    position: absolute;
-    top: 15%;
-    left: 6%;
-    font-size: 5vw;
-   } */
+/* Text area styling */
+.description {
+  white-space: pre-wrap;
+}
+/* time-block styling */
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* row styling*/
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 5px solid #aec5cb;
+}
+
+/* hour styling (& time text) */
+.hour {
+  background-color: #ffffff;
+  color: #3f3f3f;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+/* past styling for hour blocks */
+.past {
+  background-color: #cac7c7;
+  color: white;
+}
+
+/* present styling for hour blocks */
+.present {
+  background-color: #fa948e;
+  color: white;
+}
+
+/* future styling for hour blocks */
+.future {
+  background-color: #aaf7aa;
+  color: white;
+}
+
+/* save btn styling */
+.saveBtn {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #116679;
+  color: white;
+}
+
+/* saveBtn hover styling */
+.saveBtn:hover {
+  background-color: #000000;
+}
+
+/* fontawesome save icon styling */
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* clear button styling */
+#clearAllBtn {
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 20px;
+  color: #3f3f3f;
+}
+
+/* clear day trash icon styling */
+.fa-trash {
+  padding: 10px;
+  color: #3f3f3f;
+}
+
+/* clear day button hover */
+#clearAllBtn:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
